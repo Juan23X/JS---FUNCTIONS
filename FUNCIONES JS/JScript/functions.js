@@ -24,7 +24,17 @@ multiplicar(number1, number2);
 
 
   
+//3 PARAMETROS
 
+let nota1 = 8;
+let nota2 = 7;
+let nota3 = 9;
+
+let calcularPromedio = (nota1, nota2, nota3) => {
+  const promedio = (nota1 + nota2 + nota3) / 3;
+  console.log(`El promedio de las notas es: ${promedio}`);
+};
+calcularPromedio(nota1, nota2, nota3);
   
 
   
@@ -49,13 +59,10 @@ const CincoAlCubo = (numero) => {
 
 
 
-
 const imprimirApellido = (apellido) => {
     console.log(apellido);
 };
-
-
-// Ejemplo de uso:
++
 imprimirApellido("Gómez");
 
 
@@ -65,35 +72,8 @@ const triplicarNumero = (numero) => {
     return numero * 3;
 };
 
-
-// Ejemplo de uso:
 const numeroEjemplo = 5;
 console.log(triplicarNumero(numeroEjemplo));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
